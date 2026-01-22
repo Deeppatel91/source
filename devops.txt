@@ -1,0 +1,221 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Deep Patel} \\ \vspace{1pt}
+    Ahmedabad, Gujarat, India \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 8490083090 ~ \href{mailto:deeppatel9171@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{deeppatel9171@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/deep-patel-a7181520b/}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}} ~
+    \href{https://github.com/Deeppatel91}{\raisebox{-0.2\height}\faGithub\ \underline{GitHub}} ~
+    \href{https://deeppatel.site}{\raisebox{-0.2\height}\faGlobe\ \underline{Portfolio}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    Results-driven DevOps Engineer with 1+ years of experience building and maintaining CI/CD pipelines, automating infrastructure deployment, and optimizing development workflows. Expertise in Azure DevOps, AWS, Docker, Kubernetes, and Infrastructure as Code using Terraform and Bicep. Proven track record of reducing deployment times by 60 percent through pipeline automation and implementing scalable microservices architecture. Strong foundation in cloud technologies, containerization, and Agile methodologies with hands-on experience in monitoring, security, and performance optimization across multi-region cloud environments.
+    }}
+\end{itemize}
+\vspace{-16pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{CI/CD and Automation:}{ Azure DevOps, Jenkins, GitHub Actions, GitLab CI/CD, YAML Pipelines, Automated Testing} \\
+     \textbf{Cloud Platforms:}{ Azure, AWS (EC2, S3, EKS, Lambda, CloudWatch, CloudTrail), GCP, Multi-Region Deployments} \\
+     \textbf{Container and Orchestration:}{ Docker, Kubernetes (EKS, GKE, AKS), Helm Charts, Container Registry, Docker Compose} \\
+     \textbf{Infrastructure as Code:}{ Terraform, Bicep, ARM Templates, CloudFormation, Ansible, Configuration Management} \\
+     \textbf{Version Control and Source Code Management:}{ Git, GitHub, GitLab, Bitbucket, Branching Strategies, Code Reviews} \\
+     \textbf{Scripting and Programming:}{ PowerShell, Bash, Python, C\#, YAML, JSON, Groovy, Node.js} \\
+     \textbf{Monitoring and Logging:}{ Azure Monitor, Prometheus, Grafana, ELK Stack, CloudWatch, Application Insights, SonarQube} \\
+     \textbf{Databases and Storage:}{ SQL Server, PostgreSQL, MongoDB, Azure Blob Storage, S3, Redis} \\
+     \textbf{Web Servers and Proxies:}{ Nginx, OpenResty, IIS, Apache, Load Balancers} \\
+     \textbf{Security and Compliance:}{ Azure Key Vault, IAM, RBAC, Security Scanning, Vulnerability Assessment, Secret Management} \\
+     \textbf{Methodologies and Practices:}{ Agile/Scrum, DevOps Best Practices, Continuous Integration, Continuous Delivery, GitOps} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {George Brown College}{Toronto, Ontario}
+      {Advanced Diploma in Computer Programming and Analysis, GPA: 3.50/4.00}{September 2022 - April 2025}
+      \resumeItemListStart
+        \resumeItem{Dean's List Recognition for Academic Excellence in 2023 and 2024}
+        \resumeItem{Relevant Coursework: Cloud Computing, DevOps Engineering, Microservices Architecture, Database Systems, Software Development Lifecycle, Agile Methodologies, System Administration}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Developer (DevOps Focus)}{September 2024 - April 2025}
+      {ServeEase}{Toronto, Ontario}
+      \resumeItemListStart
+        \resumeItem{Architected and implemented end-to-end CI/CD pipelines using Jenkins and Docker, reducing deployment time from 45 minutes to 15 minutes and enabling automated builds for multiple microservices across development, staging, and production environments}
+        \resumeItem{Established Infrastructure as Code framework using Terraform to provision and manage AWS resources including EC2 instances, S3 buckets, RDS databases, and VPCs, ensuring consistent and reproducible infrastructure across multiple environments}
+        \resumeItem{Containerized full-stack application using Docker and orchestrated deployments on Kubernetes clusters, implementing auto-scaling policies that reduced infrastructure costs by 35 percent while maintaining 99.9 percent uptime}
+        \resumeItem{Implemented comprehensive monitoring solution using Prometheus and Grafana for real-time application performance tracking, system metrics visualization, and alerting workflows that decreased incident response time by 50 percent}
+        \resumeItem{Configured Azure DevOps pipelines with YAML-based build definitions, integrated automated testing frameworks, and established branch policies enforcing code reviews and quality gates before production deployments}
+        \resumeItem{Developed PowerShell and Bash automation scripts for environment provisioning, database migrations, log aggregation, and routine maintenance tasks, reducing manual operational overhead by 70 percent}
+        \resumeItem{Collaborated with development teams in Agile environment to optimize application architecture for cloud deployment, implement blue-green deployment strategies, and establish disaster recovery procedures}
+        \resumeItem{Managed source code repositories using Git with branching strategies including GitFlow and trunk-based development, enforcing versioning policies and maintaining clean commit histories across multiple projects}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Technical Tutor - Web Development and DevOps}{September 2023 - December 2023}
+      {George Brown College}{Toronto, Ontario}
+      \resumeItemListStart
+        \resumeItem{Mentored 20+ students in software development, cloud technologies, CI/CD practices, and DevOps tooling including Docker, Git, and Azure DevOps, achieving 90 percent student satisfaction through practical hands-on training sessions}
+        \resumeItem{Designed comprehensive learning modules covering deployment automation, containerization, version control workflows, and cloud infrastructure management aligned with industry best practices}
+        \resumeItem{Facilitated workshops on DevOps culture, continuous integration strategies, infrastructure automation, and monitoring techniques to bridge the gap between development and operations}
+        \resumeItem{Collaborated with faculty to develop supplementary resources focused on real-world DevOps scenarios, troubleshooting techniques, and production deployment strategies}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Key DevOps Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{AI-Powered Infrastructure Monitoring and Optimization System}}{January 2025}
+          \resumeItemListStart
+            \resumeItem{Engineered agentic AI system using Python, LangChain, and OpenAI API to autonomously monitor cloud infrastructure, analyze performance metrics, and provide intelligent recommendations for resource optimization and cost reduction}
+            \resumeItem{Implemented multi-agent architecture with specialized agents for log analysis, anomaly detection, capacity planning, and automated incident response, reducing manual monitoring effort by 80 percent and detecting issues 60 percent faster than traditional alerting}
+            \resumeItem{Designed automated remediation workflows where AI agents autonomously scale resources, restart failed services, clear disk space, and execute predefined runbooks based on observed system behavior and historical incident patterns}
+            \resumeItem{Built comprehensive monitoring dashboard using React and integrated with Prometheus, Grafana, and CloudWatch APIs to visualize real-time infrastructure health, AI-generated insights, and automated action logs across multi-cloud environments}
+            \resumeItem{Deployed containerized solution on Kubernetes with Helm charts for easy scaling and implemented CI/CD pipeline using Azure DevOps for continuous deployment of monitoring agents and AI model updates}
+            \resumeItem{Integrated retrieval-augmented generation capabilities enabling the AI to reference infrastructure documentation, past incident reports, and best practices to provide context-aware recommendations for infrastructure improvements}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Autonomous CI/CD Pipeline Optimization Agent}}{December 2024}
+          \resumeItemListStart
+            \resumeItem{Developed intelligent AI agent using Node.js, Claude API, and LangChain to autonomously analyze CI/CD pipeline performance, identify bottlenecks, and implement optimization strategies that reduced average build times by 45 percent}
+            \resumeItem{Created agentic workflow system with tool-calling capabilities allowing the AI to automatically refactor pipeline configurations, parallelize test execution, optimize Docker layer caching, and suggest infrastructure scaling recommendations}
+            \resumeItem{Implemented machine learning-based failure prediction model that analyzes historical build data to predict pipeline failures before they occur, enabling proactive fixes and reducing failed deployments by 65 percent}
+            \resumeItem{Built RESTful API backend integrated with Azure DevOps and GitHub Actions APIs for pipeline metrics collection, automated configuration updates, and real-time performance tracking across multiple repositories and projects}
+            \resumeItem{Designed automated testing optimization where AI agent intelligently selects and parallelizes test suites based on code changes, historical failure patterns, and test execution times, reducing testing phase duration by 50 percent}
+            \resumeItem{Integrated monitoring and alerting system that tracks pipeline health metrics, deployment success rates, and infrastructure utilization, automatically generating reports and actionable insights for continuous improvement}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------CERTIFICATIONS & ACHIEVEMENTS-----------
+\section{Certifications and Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Dean's List:}{ Academic Excellence Recognition, George Brown College (2023, 2024)} \\
+     \textbf{Azure Fundamentals:}{ Microsoft Azure Fundamentals (AZ-900) - Cloud Services and DevOps} \\
+     \textbf{Agile and Scrum:}{ Certified in Agile methodologies and Scrum framework for DevOps practices} \\
+     \textbf{Open Source Contributions:}{ Active contributor to DevOps automation and infrastructure projects on GitHub} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+\end{document}

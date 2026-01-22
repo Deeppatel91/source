@@ -1,0 +1,216 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Deep Patel} \\ \vspace{1pt}
+    Ahmedabad, Gujarat, India \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 8490083090 ~ \href{mailto:deeppatel9171@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{deeppatel9171@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/deep-patel-a7181520b/}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}} ~
+    \href{https://github.com/Deeppatel91}{\raisebox{-0.2\height}\faGithub\ \underline{GitHub}} ~
+    \href{https://deeppatel.site}{\raisebox{-0.2\height}\faGlobe\ \underline{Portfolio}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    Motivated Associate Software Developer with 1+ years of experience building scalable full-stack applications using React, .NET Core, and modern cloud technologies. Demonstrated expertise in developing AI-powered solutions and microservices architecture following Agile methodologies. Strong foundation in object-oriented programming, RESTful API development, and CI/CD practices. Proven ability to deliver high-quality software solutions in collaborative team environments.
+    }}
+\end{itemize}
+\vspace{-16pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages:}{ JavaScript, TypeScript, Java, C\#, Python, SQL, HTML5, CSS3} \\
+     \textbf{Frontend Technologies:}{ React.js, Redux, Angular, Bootstrap, Tailwind CSS, Responsive Web Design} \\
+     \textbf{Backend Technologies:}{ .NET Core, ASP.NET Core, Node.js, Express.js, RESTful APIs, Microservices} \\
+     \textbf{Databases:}{ SQL Server, PostgreSQL, MongoDB, Firebase, MySQL} \\
+     \textbf{AI and Machine Learning:}{ LangChain, OpenAI API, Claude API, Agentic AI, RAG, Vector Databases} \\
+     \textbf{Cloud and DevOps:}{ AWS, Azure, Docker, Kubernetes, Jenkins, CI/CD Pipelines, Git, GitHub} \\
+     \textbf{Tools and Platforms:}{ Visual Studio Code, IntelliJ IDEA, Postman, Jira, Confluence, SonarQube} \\
+     \textbf{Methodologies:}{ Agile/Scrum, Test-Driven Development, Object-Oriented Design, SDLC} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {George Brown College}{Toronto, Ontario}
+      {Advanced Diploma in Computer Programming and Analysis, GPA: 3.50/4.00}{September 2022 - April 2025}
+      \resumeItemListStart
+        \resumeItem{Dean's List Recognition for Academic Excellence in 2023 and 2024}
+        \resumeItem{Relevant Coursework: Full-Stack Development, Advanced Web Programming, Database Development, Data Structures and Algorithms, Object-Oriented Programming, Agile Software Development, Microservices Architecture}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Developer}{September 2024 - April 2025}
+      {ServeEase}{Toronto, Ontario}
+      \resumeItemListStart
+        \resumeItem{Developed full-stack marketplace application using React Native and RESTful APIs, serving over 1000 active users with real-time booking and transaction processing capabilities}
+        \resumeItem{Implemented secure authentication and authorization system using Firebase, ensuring data security and optimal performance for concurrent user sessions}
+        \resumeItem{Built scalable microservices architecture with Service Oriented Architecture principles, integrating Stripe payment gateway and Google Maps API for enhanced user functionality}
+        \resumeItem{Established CI/CD pipeline using Docker and Jenkins, reducing deployment time by 60 percent and implementing automated testing strategies for code quality assurance}
+        \resumeItem{Collaborated in Agile environment with daily standups, sprint planning, and code reviews to deliver features on schedule while maintaining high code quality standards}
+        \resumeItem{Developed responsive UI components using modern JavaScript ES6+ and implemented real-time data synchronization with Firebase Realtime Database}
+        \resumeItem{Applied object-oriented design patterns and SOLID principles to write maintainable and scalable code across the full application stack}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Technical Tutor - Web Development}{September 2023 - December 2023}
+      {George Brown College}{Toronto, Ontario}
+      \resumeItemListStart
+        \resumeItem{Mentored 20+ students in C\#, ASP.NET, JavaScript, CSS, and SQL Server, achieving 90 percent student satisfaction through personalized instruction and hands-on coding sessions}
+        \resumeItem{Created comprehensive learning materials covering full-stack development concepts, debugging techniques, and software engineering best practices}
+        \resumeItem{Facilitated problem-solving sessions focusing on algorithmic thinking, design patterns, and practical application of object-oriented programming principles}
+        \resumeItem{Collaborated with faculty to develop supplementary resources that improved student understanding of complex software development topics}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Key Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{AI-Powered Code Review Assistant | Python, LangChain, OpenAI API, React}}{January 2025}
+          \resumeItemListStart
+            \resumeItem{Engineered agentic AI system using LangChain framework and OpenAI GPT-4 API to automate code review process, analyzing code quality, security vulnerabilities, and best practices adherence}
+            \resumeItem{Implemented multi-agent architecture with specialized agents for syntax analysis, security scanning, and performance optimization recommendations, reducing manual code review time by 70 percent}
+            \resumeItem{Designed retrieval-augmented generation pipeline using vector databases and embeddings to provide context-aware suggestions based on organizational coding standards and historical code patterns}
+            \resumeItem{Built React-based dashboard with real-time code analysis visualization, integration with GitHub API for automated pull request reviews, and detailed reporting capabilities}
+            \resumeItem{Deployed containerized application using Docker with scalable backend infrastructure to handle concurrent code analysis requests from multiple repositories}
+            \resumeItem{Integrated autonomous decision-making capabilities enabling the AI agent to prioritize issues, suggest refactoring strategies, and generate automated documentation}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Intelligent Customer Support Agent | Node.js, Claude API, RAG, PostgreSQL}}{December 2024}
+          \resumeItemListStart
+            \resumeItem{Developed autonomous AI agent using Claude API and LangChain to handle customer inquiries, ticket routing, and knowledge base management with 85 percent accuracy in query resolution}
+            \resumeItem{Implemented retrieval-augmented generation architecture with vector search capabilities, enabling the agent to access and synthesize information from company documentation, past tickets, and product manuals}
+            \resumeItem{Created agentic workflow system with tool-calling capabilities allowing the AI to autonomously search databases, update ticket status, escalate complex issues, and generate customer responses}
+            \resumeItem{Built RESTful API backend using Node.js and Express.js with PostgreSQL database for conversation history, analytics tracking, and continuous learning from user feedback}
+            \resumeItem{Integrated real-time chat interface with WebSocket support for instant customer interaction and implemented fallback mechanisms for seamless human agent handoff}
+            \resumeItem{Designed monitoring dashboard to track agent performance metrics, including response time, resolution rate, customer satisfaction scores, and conversation quality indicators}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------CERTIFICATIONS & ACHIEVEMENTS-----------
+\section{Certifications and Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Dean's List:}{ Academic Excellence Recognition, George Brown College (2023, 2024)} \\
+     \textbf{Agile and Scrum:}{ Certified in Agile methodologies and Scrum framework for software development} \\
+     \textbf{Open Source Contributions:}{ Active contributor to GitHub projects focusing on web development and AI applications} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+\end{document}

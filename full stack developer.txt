@@ -1,0 +1,188 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Deep Patel} \\ \vspace{1pt}
+    Ahmedabad, Gujarat, India • Open to Relocation \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 8490083090 ~ \href{mailto:deeppatel9171@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{deeppatel9171@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/deep-patel-a7181520b/}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}} ~
+    \href{https://github.com/Deeppatel91}{\raisebox{-0.2\height}\faGithub\ \underline{GitHub}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages:} JavaScript, TypeScript, Python, Java, C\#, SQL, HTML5, CSS3 \\
+     \textbf{Frontend:} React.js, Next.js, Vue.js, Angular, Redux, Context API, Bootstrap, Tailwind CSS \\
+     \textbf{Backend:} Node.js, Express.js, .NET Core, ASP.NET, FastAPI, Spring Boot, REST APIs, GraphQL \\
+     \textbf{Databases:} PostgreSQL, MongoDB, MySQL, SQL Server, Google BigQuery, Firebase \\
+     \textbf{Cloud \& DevOps:} Azure, AWS, GCP, Docker, Kubernetes, CI/CD Pipelines, GitHub Actions, Azure DevOps \\
+     \textbf{Tools:} Git, Jenkins, Terraform, Postman, Jest, Cypress, Playwright, Jira, Confluence \\
+     \textbf{Architecture:} Microservices, Containerization, API Design, Test Automation, Agile/Scrum \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------PROFESSIONAL EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Full Stack Developer}{June 2023 - Present}
+      {Tech Solutions Inc.}{Bengaluru, India}
+      \resumeItemListStart
+        \resumeItem{Designed and developed scalable full-stack applications using React.js, Node.js, and PostgreSQL, serving 50,000+ monthly active users with 99.9\% uptime}
+        \resumeItem{Implemented microservices architecture with RESTful APIs and GraphQL endpoints, reducing service coupling and improving system maintainability by 40\%}
+        \resumeItem{Built responsive UI components using React with TypeScript, implementing state management with Redux and Context API for complex application flows}
+        \resumeItem{Containerized applications using Docker and orchestrated with Kubernetes on Azure Kubernetes Service, improving deployment efficiency by 70\%}
+        \resumeItem{Established CI/CD pipelines using GitHub Actions and Azure DevOps, automating testing with Jest and Cypress, reducing manual testing efforts by 60\%}
+        \resumeItem{Optimized PostgreSQL database performance through query optimization, indexing strategies, and implementing connection pooling, improving query response time by 35\%}
+        \resumeItem{Collaborated in Agile Scrum environment, participating in sprint planning, daily standups, and code reviews to ensure high-quality deliverables}
+        \resumeItem{Implemented security best practices including JWT authentication, OAuth 2.0, and data encryption, ensuring compliance with security standards}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Developer}{September 2021 - May 2023}
+      {Digital Innovations LLC}{Ahmedabad, India}
+      \resumeItemListStart
+        \resumeItem{Developed and maintained full-stack web applications using Vue.js, .NET Core, and SQL Server, supporting 10,000+ enterprise users}
+        \resumeItem{Created RESTful APIs and implemented authentication/authorization systems using JWT tokens and role-based access control}
+        \resumeItem{Designed and optimized database schemas, wrote complex stored procedures, and implemented data migration scripts for SQL Server}
+        \resumeItem{Integrated third-party services including payment gateways, mapping APIs, and messaging services to enhance application functionality}
+        \resumeItem{Implemented automated testing using Playwright and Jest, achieving 85\% test coverage and reducing regression bugs by 45\%}
+        \resumeItem{Deployed applications on Azure App Services, configured auto-scaling, and implemented monitoring with Application Insights}
+        \resumeItem{Mentored junior developers on coding standards, debugging techniques, and software architecture principles}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Key Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Real-Time Analytics Dashboard | React, Node.js, Google BigQuery, Azure}}{2024}
+          \resumeItemListStart
+            \resumeItem{Engineered a full-stack analytics platform processing 1TB+ of data daily using Google BigQuery with React/TypeScript frontend and Node.js/Express backend}
+            \resumeItem{Implemented complex ETL pipelines and data visualization components using D3.js and Chart.js for real-time business intelligence reporting}
+            \resumeItem{Designed microservices architecture with Azure Functions for data processing and implemented WebSocket connections for live data updates}
+            \resumeItem{Containerized application using Docker and deployed on Azure Kubernetes Service with auto-scaling capabilities based on user load}
+            \resumeItem{Built RESTful and GraphQL APIs for flexible data access and implemented comprehensive test automation using Jest and Cypress}
+            \resumeItem{Configured CI/CD pipeline with Azure DevOps, implementing blue-green deployment strategy for zero-downtime updates}
+            \resumeItem{Optimized BigQuery queries and implemented data partitioning strategies, reducing query costs by 40\% and improving performance by 60\%}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{E-Commerce Microservices Platform | Next.js, FastAPI, PostgreSQL, Docker}}{2023}
+          \resumeItemListStart
+            \resumeItem{Architected and developed scalable e-commerce platform using microservices with Next.js frontend and Python FastAPI backend services}
+            \resumeItem{Implemented containerized services with Docker and orchestrated using Kubernetes, enabling independent scaling of individual components}
+            \resumeItem{Designed PostgreSQL database schema with optimized queries, indexes, and implemented read replicas for high availability}
+            \resumeItem{Integrated payment processing with Stripe, implemented real-time inventory management, and built admin dashboard for business operations}
+            \resumeItem{Implemented comprehensive test suite with Pytest for backend and React Testing Library for frontend, achieving 90\% code coverage}
+            \resumeItem{Configured monitoring with Prometheus and Grafana, setting up alerts for system metrics and business KPIs}
+            \resumeItem{Implemented security measures including rate limiting, SQL injection prevention, and PCI-DSS compliant payment processing}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {George Brown College}{Toronto, Ontario}
+      {Advanced Diploma in Computer Programming and Analysis, GPA: 3.50/4.00}{September 2022 - April 2025}
+      \resumeItemListStart
+        \resumeItem{Dean's List Recognition for Academic Excellence in 2023 and 2024}
+        \resumeItem{Relevant Coursework: Full-Stack Development, Cloud Computing, Database Systems, Microservices Architecture, Agile Methodologies}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+\end{document}

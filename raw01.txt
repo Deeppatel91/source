@@ -1,0 +1,195 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Deep Patel} \\ \vspace{1pt}
+    ahmedabad, Gujarat \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 8490083090 ~ \href{mailto:deeppatel9171@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{deeppatel9171@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/deep-patel-a7181520b/}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}} ~
+    \href{https://github.com/Deeppatel91}{\raisebox{-0.2\height}\faGithub\ \underline{GitHub}} ~
+    \href{https://deeppatel.site}{\raisebox{-0.2\height}\faGlobe\ \underline{Portfolio}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {George Brown College}{Toronto, Ontario}
+      {Advanced Diploma in Computer Programming and Analysis, GPA: 3.50/4.00}{September 2022 - April 2025}
+      \resumeItemListStart
+        \resumeItem{Concentrations: Web \& Mobile Application Development, Full-Stack Development}
+        \resumeItem{Dean's List Recognition}
+        \resumeItem{Relevant Coursework: Advanced Web Programming, Full-Stack Development, Advanced Database Development, Advanced Object-Oriented Programming, Data Structures and Algorithms, Agile Software Development, DevOps, Microservices Architecture}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages:}{ Java, JavaScript, TypeScript, Python, SQL, HTML, CSS, PHP, C\#} \\
+     \textbf{Backend Technologies:}{ Java 11, Spring Boot, Node.js, RESTful APIs, Microservices, Kafka, ASP.NET Core} \\
+     \textbf{Frontend Technologies:}{ React, JavaScript (ES6+), Angular, HTML5, CSS3, Sass, Bootstrap, Tailwind CSS} \\
+     \textbf{Databases \& Data Processing:}{ MySQL, PostgreSQL, MongoDB, Firebase, Redis, Apache Spark, Hadoop} \\
+     \textbf{Cloud \& Infrastructure:}{ AWS, Azure, Docker, Kubernetes, Jenkins, Apache Mesos, Elastic Search} \\
+     \textbf{Development Tools:}{ Git, IntelliJ IDEA, Visual Studio Code, Postman, SonarQube, Travis CI} \\
+     \textbf{Methodologies:}{ Agile Development, DevOps, CI/CD, Test-Driven Development, Cross-functional Team Collaboration} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Developer}{September 2024 - April 2025}
+      {ServeEase}{Toronto, Ontario}
+      \resumeItemListStart
+        \resumeItem{Developed cross-platform React Native marketplace application with real-time booking capabilities, serving over 1000+ users connecting homeowners with service providers}
+        \resumeItem{Built scalable backend microservices architecture using RESTful APIs and Firebase, implementing secure user authentication and efficient data management for high-volume transactions}
+        \resumeItem{Integrated multiple third-party APIs including Stripe for payment processing and Google Maps for location-based services, enhancing user experience and service discovery}
+        \resumeItem{Implemented real-time data synchronization using Firebase Realtime Database and event-driven architecture for seamless communication between service providers and customers}
+        \resumeItem{Designed comprehensive provider dashboard with advanced service management features, automated notification systems, and intelligent scheduling algorithms}
+        \resumeItem{Established CI/CD pipeline using Docker and Jenkins for automated testing and deployment, reducing deployment time by 60\% and improving code quality}
+        \resumeItem{Collaborated in cross-functional team environment following Agile methodologies, participating in sprint planning, code reviews, and continuous improvement initiatives}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Technical Tutor - Web Development}{September 2023 - December 2023}
+      {George Brown College}{Toronto, Ontario}
+      \resumeItemListStart
+        \resumeItem{Provided technical mentoring in web development technologies including C\#, ASP.NET, JavaScript, and CSS to 20+ students, achieving 90\% satisfaction ratings}
+        \resumeItem{Developed customized learning materials and hands-on coding exercises for complex programming concepts, debugging techniques, and SQL Server database integration}
+        \resumeItem{Collaborated with instructors to create supplementary learning resources and practical coding examples, improving student comprehension of full-stack development concepts}
+        \resumeItem{Facilitated one-on-one sessions focusing on problem-solving methodologies and best practices in software development}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Key Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Library Room Reservation System | Java, Spring Boot, Microservices}}{Spring 2025}
+          \resumeItemListStart
+            \resumeItem{Architected microservices-based application using Java 11 and Spring Boot framework with OAuth 2.0 authentication, demonstrating expertise in distributed system design}
+            \resumeItem{Implemented fault tolerance and resilience patterns using Resilience4J circuit breakers, ensuring 99.9\% system availability}
+            \resumeItem{Designed polyglot persistence architecture using PostgreSQL and MongoDB, optimizing data storage for different service requirements}
+            \resumeItem{Integrated Apache Kafka for event streaming and asynchronous communication between microservices, improving system scalability}
+            \resumeItem{Containerized application using Docker and implemented comprehensive API documentation with Swagger}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Employee Management System | MERN Stack, Full-Stack Development}}{Winter 2025}
+          \resumeItemListStart
+            \resumeItem{Built responsive single-page web application using MongoDB, Express.js, React, and Node.js stack with modern JavaScript (ES6+) features}
+            \resumeItem{Implemented secure JWT-based authentication system and real-time search functionality with optimized database queries}
+            \resumeItem{Developed comprehensive RESTful API endpoints for CRUD operations with proper error handling and data validation}
+            \resumeItem{Deployed containerized application using Docker with automated deployment pipeline through Vercel, demonstrating DevOps practices}
+            \resumeItem{Applied responsive design principles and modern UI/UX practices for optimal user experience across devices}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+\end{document}

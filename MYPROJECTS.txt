@@ -1,0 +1,110 @@
+**Projects**
+
+**ServeEase - Home Service Marketplace**  
+*Last year*  
+*React Native, Firebase, Node.js, Stripe API, Google Maps API, SendGrid, Figma*  
+- Developed a full-stack React Native marketplace connecting homeowners with verified service providers.  
+- Implemented real-time booking, tracking, and payment processing using Stripe integration.  
+- Built role-based authentication with Firebase and admin approval workflows.  
+- Integrated Google Maps API for location-based service matching and scheduling.  
+- Enhanced iOS compatibility with permission systems and service list screens.  
+- Containerized using Docker with microservices architecture for scalable deployment.
+
+**Pathfinding Algorithms Visualizer**  
+*Last year*  
+*Python, Pygame, NumPy, PyCharm*  
+- Created interactive visualization tool for A*, BFS, and Dijkstra's pathfinding algorithms.  
+- Implemented grid-based interface with dynamic wall placement and real-time path highlighting.  
+- Developed heuristic-based search algorithms with visual exploration of visited nodes.  
+- Designed intuitive UI for comparing algorithm efficiency in different scenarios.  
+- Applied object-oriented principles for maintainable and extensible code architecture.
+
+**Library Room Reservation Microservices**  
+*2 years ago*  
+*Spring Boot, Java, Docker, Kafka, PostgreSQL, MongoDB, Keycloak, Resilience4J, Swagger*  
+- Engineered scalable microservices system for library room bookings using Spring Boot.  
+- Implemented event-driven communication with Kafka for booking workflows and notifications.  
+- Integrated Keycloak OAuth 2.0 for secure authentication and role-based access control.  
+- Enhanced fault tolerance with Resilience4J circuit breakers and fallback mechanisms.  
+- Containerized services using Docker with polyglot persistence (PostgreSQL and MongoDB).  
+- Automated email notifications via Mailtrap and documented APIs with Swagger UI.
+
+**GBC Travel Platform**  
+*College project*  
+*ASP.NET Core, C#, MySQL, Twilio, AWS, Azure, Bootstrap, JavaScript, jQuery*  
+- Developed comprehensive travel booking platform for flights, hotels, and car rentals.  
+- Implemented secure authentication using Microsoft Identity with email verification.  
+- Deployed on Microsoft Azure with AWS MySQL database for reliable data management.  
+- Established CI/CD pipeline using GitHub Actions for automated deployment.  
+- Integrated Serilog for comprehensive logging and system monitoring.  
+- Created responsive UI with Bootstrap, HTML, CSS, and jQuery.
+
+**Employee Management MERN Application**  
+*Recent project*  
+*React, Node.js, Express.js, MongoDB, JWT, Bootstrap, Docker, Vercel*  
+- Built full-stack employee management system with JWT authentication and authorization.  
+- Implemented real-time search functionality optimized for thousands of records.  
+- Developed RESTful API with comprehensive CRUD operations and data validation.  
+- Containerized application using Docker for consistent development and deployment.  
+- Deployed frontend on Vercel with responsive design using Bootstrap CSS.  
+- Tested API endpoints thoroughly using Postman for reliability.
+
+**Real-time Chat Application**  
+*Recent project*  
+*Node.js, Socket.IO, VSCode, Git*  
+- Developed real-time chat application with multiple room support and user presence features.  
+- Implemented Socket.IO for bidirectional communication and instant message delivery.  
+- Created typing indicators showing real-time user activity in chat rooms.  
+- Built user authentication system with signup, login, and session management.  
+- Designed intuitive UI with join/leave room functionality and system notifications.  
+- Applied event-driven architecture for scalable real-time communication.
+
+**Weather Application with React**  
+*Recent project*  
+*React, OpenWeatherMap API, Postman, CSS*  
+- Created weather dashboard displaying current conditions and 5-day forecasts.  
+- Integrated OpenWeatherMap API for real-time weather data fetching and parsing.  
+- Implemented dynamic city search with autocomplete and error handling.  
+- Designed responsive UI with weather icons and condition descriptions.  
+- Optimized API calls with caching and debounced search inputs.  
+- Tested API endpoints using Postman for reliability and accuracy.
+
+**Inventory Management System**  
+*Recent project*  
+*Spring Boot, Java, Docker, PostgreSQL, MongoDB, Keycloak, Swagger, Kafka*  
+- Developed microservices-based inventory system with product management and stock tracking.  
+- Implemented event-driven order processing using Kafka for asynchronous communication.  
+- Integrated Keycloak OAuth 2.0 for secure authentication and authorization controls.  
+- Utilized polyglot persistence with PostgreSQL for transactions and MongoDB for documents.  
+- Containerized services using Docker Compose for easy deployment and scalability.  
+- Documented REST APIs with Swagger UI and implemented Resilience4J for fault tolerance.
+
+**SpaceX Mission Tracker**  
+*Recent project*  
+*Angular, Node.js, TypeScript, Vercel, RxJS, Angular Material*  
+- Built Angular 19 application with Server-Side Rendering (SSR) for SpaceX mission tracking.  
+- Integrated SpaceX REST API to display real-time mission data and launch details.  
+- Implemented responsive design with Angular Material and optimized performance with SSR.  
+- Developed interactive data visualizations for mission statistics and success rates.  
+- Deployed application on Vercel with automated CI/CD pipeline.  
+- Applied reactive programming patterns using RxJS for efficient data handling.
+
+**Employee Management with GraphQL**  
+*Recent project*  
+*Angular, Node.js, GraphQL, MongoDB, Express.js, JWT, Apollo Client*  
+- Developed full-stack application using MEAN stack with GraphQL API instead of REST.  
+- Implemented GraphQL queries and mutations for efficient employee data fetching.  
+- Created JWT-based authentication system with secure token management.  
+- Built responsive Angular frontend with advanced filtering and sorting capabilities.  
+- Deployed backend on Render and frontend on Vercel with environment configuration.  
+- Utilized Apollo Client for GraphQL operations and real-time subscriptions.
+
+**iOS To-Do List Application**  
+*Recent project*  
+*Swift, Firebase, Xcode, GitHub*  
+- Developed native iOS application for task management using Swift and Firebase.  
+- Implemented user authentication (login/signup/password reset) with Firebase Auth.  
+- Created CRUD operations for tasks with filtering, sorting, and due date tracking.  
+- Designed intuitive UI with custom components and smooth navigation flow.  
+- Collaborated using GitHub with clear task distribution and version control.  
+- Applied MVVM architecture pattern for maintainable and testable code structure.
