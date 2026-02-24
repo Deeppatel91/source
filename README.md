@@ -24,6 +24,8 @@ change the city for the resume according to job description city here
 
 give me ats friendly resume latex code)
 
+only include two projects in resume 
+
 
 
 
