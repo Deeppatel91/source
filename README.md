@@ -27,7 +27,7 @@ give me ats friendly resume latex code)
 only include two projects in resume 
 
 
-
+i worked in serveease from September 2024 to september 2025
 
 
 
