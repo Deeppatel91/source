@@ -25,4 +25,4 @@ make me resume dont include project year in project section title no year requir
 
 so here is a chnage after currently im india make this chnages in expereience i have worked with serveease until september 2025 and i am working as a software developer at peafowl it   from dec 2025 to march 2026
 
-||have valid work permit untill feb 2029
+||have valid work permit untill feb 2029 if the role is for canada positions 
