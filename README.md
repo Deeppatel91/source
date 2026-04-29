@@ -19,7 +19,7 @@ i worked in serveease from September 2024 to september 2025
 make me resume dont include project year in project section title no year require in project section 
 
 
-
+add this portfolio linke instead of deeppatel.site = https://deeppatel91.vercel.app/
 
 
 
